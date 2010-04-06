@@ -1,0 +1,10 @@
+[{"page_id":"119594043893"},{"page_id":"76831194624"}]
+SELECT page_id FROM page_admin WHERE uid = <uid>
+
+$facebook->api_client->pages_getInfo('119594043893,76831194624','name,page_url,website','','');
+
+http://wiki.developers.facebook.com/index.php/Stream.publish
+
+
+IMPORTANT:
+http://planetozh.com/blog/2009/09/top-10-most-common-coding-mistakes-in-wordpress-plugins/
