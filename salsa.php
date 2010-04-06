@@ -588,8 +588,8 @@ function salsa_do_notify_facebook(&$post) {
   $message = $post->post_title . ' - ' . $url;
 	$attachment = array('name' => $post->post_title,
 											'href' => $url,
-											'caption' => 'www.notreble.com',
-											'description' => 'the site for bass players',
+											'caption' => 'www.xxxxxxx.com',
+											'description' => 'xxxxxxx',
 											'media' => $media,
 											);
 	$action_links = array( array('text' => 'Share',
